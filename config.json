@@ -1,0 +1,18 @@
+{
+	"bridge": {
+		"name": "Homebridge",
+		"username": "CC:22:3D:E3:CE:30",
+		"port": 49766,
+		"pin": "031-45-154"
+	},
+
+	"description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+
+	"platforms": [{
+		"platform": "SmartThings",
+		"name": "SmartThings",
+		"app_url": "https://graph.api.smartthings.com:443/api/smartapps/installations/",
+		"app_id": "NDANIEL27@GMAIL.COM",
+		"access_token": "031-45-154"
+	}]
+}
